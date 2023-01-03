@@ -17,7 +17,7 @@ namespace Mod
             ModAPI.Register(
                 new Modification()
                 {
-                    OriginalItem = ModAPI.FindSpawnable("Pistol"), //could be Revolver or other guns
+                    OriginalItem = ModAPI.FindSpawnable("Pistol"),
                     NameOverride = "Explosive Pistol",
                     DescriptionOverride = "Explosive Pistol!!",
                     CategoryOverride = ModAPI.FindCategory("Firearms"), 
